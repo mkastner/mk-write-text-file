@@ -1,0 +1,30 @@
+{
+  "name": "mk-write-text-file",
+  "version": "0.0.1",
+  "description": "fs.writeTextFile as promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test node --harmony test/*-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkastner/mk-write-text-file.git"
+  },
+  "keywords": [
+    "node",
+    "write",
+    "text",
+    "file",
+    "promise"
+  ],
+  "author": "John Galt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkastner/mk-write-text-file/issues"
+  },
+  "homepage": "https://github.com/mkastner/mk-write-text-file#readme",
+  "devDependencies": {
+    "tape": "^4.6.3",
+    "url": "git+https://github.com/mkastner/mk-read-text-file.git"
+  }
+}
