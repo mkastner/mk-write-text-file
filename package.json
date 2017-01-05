@@ -24,7 +24,11 @@
   },
   "homepage": "https://github.com/mkastner/mk-write-text-file#readme",
   "devDependencies": {
-    "tape": "^4.6.3",
-    "url": "git+https://github.com/mkastner/mk-read-text-file.git"
+    "mk-delete-file": "git+https://github.com/mkastner/mk-delete-file.git",
+    "mk-read-text-file": "git+https://github.com/mkastner/mk-read-text-file.git",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "mk-log": "git+https://github.com/mkastner/mk-log.git"
   }
 }
