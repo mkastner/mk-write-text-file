@@ -1,0 +1,56 @@
+Arguments: 
+  /usr/local/Cellar/node@8/8.11.3_1/bin/node /usr/local/Cellar/yarn/1.7.0/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/kastner/.rvm/gems/ruby-2.4.1/bin:/Users/kastner/.rvm/gems/ruby-2.4.1@global/bin:/Users/kastner/.rvm/rubies/ruby-2.4.1/bin:/usr/local/opt/python@2/bin:/Users/kastner/.npm-packages/bin:/Users/kastner/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/kastner/.rvm/gems/ruby-2.4.1/bin:/Users/kastner/.rvm/gems/ruby-2.4.1@global/bin:/Users/kastner/.rvm/rubies/ruby-2.4.1/bin:/usr/local/opt/python@2/bin:/Users/kastner/.npm-packages/bin:/Users/kastner/bin:/usr/local/bin/mysql:./node_modules/.bin:/Users/kastner/.config/yarn/global/node_modules/.bin:/usr/local/sbin:/Users/kastner/.rvm/bin:/usr/local/bin/mysql:/Users/kastner/bin:./node_modules/.bin:/Users/kastner/.config/yarn/global/node_modules/.bin:/Users/kastner/.npm-packages/bin:/usr/local/sbin:/Users/kastner/.rvm/bin:/Users/kastner/bin:./node_modules/.bin:/Users/kastner/.config/yarn/global/node_modules/.bin:/Users/kastner/.npm-packages/bin:/usr/local/sbin:/Users/kastner/.rvm/bin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.11.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, stat '/Users/kastner/Documents/node.js/mk-write-text-file/node_modules/mk-log'
+
+npm manifest: 
+  {
+    "name": "mk-write-text-file",
+    "version": "0.0.2",
+    "description": "fs.writeTextFile as promise",
+    "main": "index.js",
+    "scripts": {
+      "test": "NODE_ENV=test node --harmony test/*-test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mkastner/mk-write-text-file.git"
+    },
+    "keywords": [
+      "node",
+      "write",
+      "text",
+      "file",
+      "promise"
+    ],
+    "author": "John Galt",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mkastner/mk-write-text-file/issues"
+    },
+    "homepage": "https://github.com/mkastner/mk-write-text-file#readme",
+    "devDependencies": {
+      "mk-delete-file": "git+https://github.com/mkastner/mk-delete-file.git",
+      "mk-read-text-file": "git+https://github.com/mkastner/mk-read-text-file.git",
+      "tape": "^4.6.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

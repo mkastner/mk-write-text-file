@@ -1,10 +1,10 @@
 {
   "name": "mk-write-text-file",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "fs.writeTextFile as promise",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node --harmony test/*-test.js"
+    "test": "NODE_ENV=test node test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -24,11 +24,9 @@
   },
   "homepage": "https://github.com/mkastner/mk-write-text-file#readme",
   "devDependencies": {
-    "mk-delete-file": "git+https://github.com/mkastner/mk-delete-file.git",
-    "mk-read-text-file": "git+https://github.com/mkastner/mk-read-text-file.git",
+    "mk-delete-file": "git+https://github.com/mkastner/mk-delete-file.git#v0.0.2",
+    "mk-read-text-file": "git+https://github.com/mkastner/mk-read-text-file.gitv0.0.2",
+    "mk-fs-stat": "git+https://github.com/mkastner/mk-fs-stat.gitv0.0.2",
     "tape": "^4.6.3"
-  },
-  "dependencies": {
-    "mk-log": "git+https://github.com/mkastner/mk-log.git"
   }
 }
